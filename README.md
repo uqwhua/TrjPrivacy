@@ -1,16 +1,16 @@
 # TrjPrivacy
 TKDE'22: A Survey and Experimental Study on Privacy-Preserving Trajectory Data Publishing (accepted by TKDE in May 2022)
 
-## Compared models
-- formal models
-  - k-anonymity based: W4M [1], GLOVE [2], KLT [3]
-  - differential privacy based: DPT [4], AdaTrace [5]
-- ad-hoc models
+## Compared Models
+- Formal models
+  - k-anonymity models: W4M [1], GLOVE [2], KLT [3]
+  - differential privacy models: DPT [4], AdaTrace [5]
+- Ad-hoc models
   - mixzone [6]
   - dummy [7]
 
-## Source codes
-Thanks for some authors kindly providing the public-available runable program or the code:
+## Source Codes
+We would like to thank some authors for kindly providing the publicly-available runable source code:
 - [W4M](https://kdd.isti.cnr.it/W4M/)
 - [AdaTrace](https://github.com/git-disl/AdaTrace)
 - DPT: we obtained it from the authors but don't have the right to make it public here. 
@@ -43,7 +43,7 @@ A small subset of T-Drive is provided in this project for testing.
     data_FolderOutput = ./Testing/outputs/                              -- the output folder, any log file or anonymized trajectries will be here
     ...
 
-## Reference
+## References
 [1] O. Abul, F. Bonchi, and M. Nanni, “Anonymization of moving objects databases by clustering and perturbation,” Inf. Syst., vol. 35, no. 8, pp. 884–910, 2010.
 
 [2] M. Gramaglia and M. Fiore, “Hiding mobile traffic fingerprints with GLOVE,” in Proc. CoNEXT. ACM, 2015, pp. 26:1–26:13.
@@ -60,7 +60,7 @@ A small subset of T-Drive is provided in this project for testing.
 
 ## Citation
 
-If you find our algorithms or the experimental results useful, please kindly cite the following paper:
+If you find our library or the experimental results useful, please kindly cite the following paper:
 ```
 @article{jin2022tkde,
   title={A Survey and Experimental Study on Privacy-Preserving Trajectory Data Publishing},
@@ -70,4 +70,4 @@ If you find our algorithms or the experimental results useful, please kindly cit
 }
 ```
 
-Please feel free to contact fengmei.jin@uq.edu.au if encountering some unexpected issues in this project.
+Please feel free to contact fengmei.jin@uq.edu.au if encountering any unexpected issues in this project.
