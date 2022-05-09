@@ -1,5 +1,5 @@
 # TrjPrivacy
-TKDE'22: A Survey and Experimental Study on Privacy-Preserving Trajectory Data Publishing (accepted by TKDE on May 2022)
+TKDE'22: A Survey and Experimental Study on Privacy-Preserving Trajectory Data Publishing (accepted by TKDE in May 2022)
 
 ## Compared models
 - formal models
