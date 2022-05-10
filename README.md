@@ -23,7 +23,7 @@ Tested in CentOS Linux and MacOS Monterey (jdk 17.0.1)
 [T-Drive](https://www.microsoft.com/en-us/research/publication/t-drive-trajectory-data-sample/) and [Geolife](https://www.microsoft.com/en-us/download/details.aspx?id=52367) are publicly available datasets provided by Microsoft.
 A small subset of T-Drive is provided in this project for testing.
 
-## Project Structure (to be revised later)
+## Project Structure
     Testing/                                  
     ├── BeijingRoadNetworkInfo/                 -- the road network information, including road verties/edges and all Beijing POIs
     ├── formal_inputs/                          -- two small sets of T-Drive data have been uploaded here, 
