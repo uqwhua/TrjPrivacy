@@ -1,0 +1,11 @@
+vertices.txt
+	the file of road intersections (路口数据文件)
+	format: vid lat lng
+
+edges.txt
+	the file of road segments (道路数据文件)
+	format: eid start_vid end_vid
+
+geos.txt
+	the file of segments' details (道路细节数据)
+	format: eid lat1 lng1 lat2 lng2 ...
