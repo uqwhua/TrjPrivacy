@@ -10,10 +10,10 @@ TKDE'22: A Survey and Experimental Study on Privacy-Preserving Trajectory Data P
   - dummy [7]
 
 ## Source Codes
-We would like to thank some authors for kindly providing the publicly-available runable source code:
+We would like to thank the authors for kindly providing the publicly-available runable source code:
 - [W4M](https://kdd.isti.cnr.it/W4M/)
 - [AdaTrace](https://github.com/git-disl/AdaTrace)
-- DPT: we obtained it from the authors but don't have the right to make it public here. 
+- DPT: we obtained it directly from the authors but don't have the right to make it public here. 
 - GLOVE, KLT, mixzone, dummy: implemented by ourselves in Java and provided in this repository.
 
 ## Environment
@@ -25,23 +25,22 @@ A small subset of T-Drive is provided in this project for testing.
 
 ## Project Structure (to be revised later)
     Testing/                                  
-    ├── RoadNetworkInfo/NNid2lnglat.csv        -- the road network information used for simple map-matching as the data preprosseing
-    ├── TestData-tdrive/                       -- T-Drive dataset including 600 objects' one-week trajectory
-                                                  Note that some objects could be discarded due to too few data points
+    ├── BeijingRoadNetworkInfo/                 -- the road network information, including road verties/edges and all Beijing POIs
+    ├── formal_inputs/                          -- two small sets of T-Drive data have been uploaded here, 
+                                                   one contains 100 objects' total data ("T-Drive_object/100.csv") 
+                                                   and the other contains 1000 objects' down-sampling data ("T-Drive_sample/3600.csv")
+                                                   Note that some objects could be discarded due to too few data points
     src/                                      
     ├── resources/config.properties            -- the program will read parameters here (modify it according to your requirements)
-    ├── main/Main.java                         -- the entry of the program
-    ├── 
+    ├── models/Main.java                       -- the entry of the program
+    ├── models/                                -- four models: mixzone, dummy, GLOVE, KLT
+    ├── shared/                                -- some useful functions/classes shared by privacy models
+    ├── spatial/                               -- spatial structures used in this project
+    ├── evaluation/                            -- the evaulation metrics (coming soon)
     
     libs                                       -- some external library packages that are necessary to be included in the program
     ...                 
 
-## Input Parameters (to be revised later)
-
-    RoadNetworkFile = ./Testing/RoadNetworkInfo/NNid2lnglat.csv         -- fixed, used for the simple map-matching initially
-    data_FolderInput = ./Testing/TestData-tdrive/                       -- the input data to be protected
-    data_FolderOutput = ./Testing/outputs/                              -- the output folder, any log file or anonymized trajectries will be here
-    ...
 
 ## References
 [1] O. Abul, F. Bonchi, and M. Nanni, “Anonymization of moving objects databases by clustering and perturbation,” Inf. Syst., vol. 35, no. 8, pp. 884–910, 2010.
