@@ -25,11 +25,11 @@ A small subset of T-Drive is provided in this project for testing.
 
 ## Project Structure
     Testing/                                  
-    ├── BeijingRoadNetworkInfo/                 -- the road network information, including road verties/edges and all Beijing POIs
-    ├── formal_inputs/                          -- two small sets of T-Drive data have been uploaded here, 
-                                                   one contains 100 objects' total data ("T-Drive_object/100.csv") 
-                                                   and the other contains 1000 objects' down-sampling data ("T-Drive_sample/3600.csv")
-                                                   Note that some objects could be discarded due to too few data points
+    ├── BeijingRoadNetworkInfo/                -- the road network information, including road verties/edges and all Beijing POIs
+    ├── formal_inputs/                         -- two small sets of T-Drive data have been uploaded here:
+                                                  one contains 100 objects' total data ("T-Drive_object/100.csv")
+                                                  the other contains 1000 objects' down-sampling data ("T-Drive_sample/3600.csv")
+                                                  some objects could be discarded due to too few data points
     src/                                      
     ├── resources/config.properties            -- the program will read parameters here (modify it according to your requirements)
     ├── models/Main.java                       -- the entry of the program
