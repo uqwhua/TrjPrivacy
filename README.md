@@ -36,7 +36,7 @@ A small subset of T-Drive is provided in this project for testing.
     ├── models/                                -- four models: mixzone, dummy, GLOVE, KLT
     ├── shared/                                -- some useful functions/classes shared by privacy models
     ├── spatial/                               -- spatial structures used in this project
-    ├── evaluation/                            -- the evaulation metrics (coming soon)
+    ├── evaluation/                            -- the evaluation metrics (coming soon)
     
     libs                                       -- some external library packages that are necessary to be included in the program
     ...                 
@@ -65,7 +65,9 @@ If you find our library or the experimental results useful, please kindly cite t
   title={A Survey and Experimental Study on Privacy-Preserving Trajectory Data Publishing},
   author={Jin, Fengmei and Hua, Wen and Francia, Matteo and Chao, Pingfu and Orowska, Maria and Zhou, Xiaofang},
   journal={IEEE Transactions on Knowledge and Data Engineering},
-  year={2022}
+  year={2022},
+  issn = {1558-2191},
+  doi = {10.1109/TKDE.2022.3174204}
 }
 ```
 
