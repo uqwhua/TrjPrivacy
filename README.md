@@ -1,5 +1,5 @@
 # TrjPrivacy
-TKDE'22: [A Survey and Experimental Study on Privacy-Preserving Trajectory Data Publishing](https://ieeexplore.ieee.org/document/9772978) (accepted by TKDE in May 2022)
+Source code of TKDE'23 paper: [A Survey and Experimental Study on Privacy-Preserving Trajectory Data Publishing](https://ieeexplore.ieee.org/document/9772978).
 
 ## Compared Models
 - Formal models
@@ -61,13 +61,15 @@ A small subset of T-Drive is provided in this project for testing.
 
 If you find our library or the experimental results useful, please kindly cite the following paper:
 ```
-@article{jin2022tkde,
-  title={A Survey and Experimental Study on Privacy-Preserving Trajectory Data Publishing},
-  author={Jin, Fengmei and Hua, Wen and Francia, Matteo and Chao, Pingfu and Orowska, Maria and Zhou, Xiaofang},
-  journal={IEEE Transactions on Knowledge and Data Engineering},
-  year={2022},
-  issn = {1558-2191},
-  doi = {10.1109/TKDE.2022.3174204}
+@ARTICLE{jin2023,
+  author={Jin, Fengmei and Hua, Wen and Francia, Matteo and Chao, Pingfu and Orlowska, Maria E and Zhou, Xiaofang},
+  journal={IEEE Transactions on Knowledge and Data Engineering}, 
+  title={A Survey and Experimental Study on Privacy-Preserving Trajectory Data Publishing}, 
+  year={2023},
+  volume={35},
+  number={6},
+  pages={5577-5596},
+  doi={10.1109/TKDE.2022.3174204}
 }
 ```
 
